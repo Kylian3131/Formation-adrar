@@ -1,0 +1,16 @@
+caption {
+    color: blueviolet;
+}
+
+table {
+    border: blueviolet double 3px; 
+}
+
+td, th {
+    border: black solid 2px;
+}
+
+th {
+    background-color: aqua;
+}
+
