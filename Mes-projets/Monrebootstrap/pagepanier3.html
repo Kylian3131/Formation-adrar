@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Panier</title>
+    <link href="bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Formulaire de paiement</h1>
+
+
+        <div class="row g-5">
+            <!-- Facturation -->
+            <div class="col-md-8">
+                <h2>Adresse de facturation</h2>
+
+                <form class="row g-3">
+
+
+                    <div class="col-6">
+                        <label class="form-label" for="nom">Nom :</label>
+                        <input class="form-control" id="nom" type="text">
+                    </div>
+                    <div class="col-6">
+                        <label class="form-label" for="prenom">Prénom :</label>
+                        <input class="form-control" id="prenom" type="text">
+
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="username">Nom d'utilisateur :</label>
+                        <input class="form-control" id="username" type="text">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="mail">E-mail :</label>
+                        <input class="form-control" id="mail" type="email">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="adresse">Adresse :</label>
+                        <input class="form-control" id="adresse" type="text">
+                    </div>
+                    <div class="col-12">
+                        <label class="form-label" for="adresse-2">Adresse-2 :</label>
+                        <input class="form-control" id="adresse-2" type="text">
+                    </div>
+                    <div class="col-5">
+                        <label class="form-label" for="Pays">Pays :</label>
+                        <select class="form-select" id="Pays" aria-label="Choix du pays">
+
+                            <option selected>Pays</option>
+                            <option value="1">France</option>
+                            <option value="2">Allemagne</option>
+                            <option value="3">luxembourg</option>
+
+                        </select>
+                    </div>
+                    <div class="col-4">
+                        <label class="form-label" for="Ville">Ville :</label>
+                        <input class="form-control" id="Ville" type="text">
+                    </div>
+                    <div class="col-3">
+                        <label class="form-label" for="Code-postal">Code postal :</label>
+                        <input class="form-control" id="Code-postal" type="number">
+                    </div>
+
+                    <hr class="my-5">
+
+                    <h3>Paiement</h3>
+
+                    <!-- Paiement -->
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="paiement" id="carte" checked>
+                        <label class="form-check-label" for="carte">Carte de crédit</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="paiement" id="carte">
+                        <label class="form-check-label" for="carte">Carte fidélité</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="paiement" id="carte">
+                        <label class="form-check-label" for="carte">Paypal</label>
+                    </div>
+
+
+                    <div class="col-6">
+                        <label for="numero-de-carte" class="form-label">Titulaire de la carte</label>
+                        <input type="titulaire-de-la-carte" class="form-control" id="numero-de-carte">
+                        <small class="text-muted">Nom complet écrit sur la carte</small>
+                    </div>
+                    <div class="col-6">
+                        <label for="numero-de-carte" class="form-label">Numéro de la carte</label>
+                        <input type="numero-de-la-carte" class="form-control" id="numero-de-carte">
+                    </div>
+
+
+                    <div class="col-3">
+                        <label for="expiration" class="form-label">Expiration</label>
+                        <input type="expiration" class="form-control" id="expiration">
+                    </div>
+                    <div class="col-3">
+                        <label for="CVV" class="form-label">CVV</label>
+                        <input type="CVV" class="form-control" id="CVV">
+                    </div>
+
+                    <hr class="mt-4">
+
+                    <button class="w-50 btn btn-primary btn-lg" type="submit">
+                        Payer
+                    </button>
+
+                </form>
+
+            </div>
+            <!-- Panier -->
+            <div class="col-md-4 mt-4">
+                <h2>Panier</h2>
+
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <h3 class="h6">Product name</h3>
+                        <span class="text-muted">Petite description</span>
+                    </li>
+                    <li class="list-group-item">
+                        <h3 class="h6">Product name</h3>
+                        <span class="text-muted">Petite description</span>
+                    </li>
+                    <li class="list-group-item">
+                        <h3 class="h6">Product name</h3>
+                        <span class="text-muted">Petite description</span>
+                    </li>
+                    <li class="list-group-item list-group-item-success">
+                        <h3 class="h6">Code promo</h3>
+                        <span class="text-muted">Petite description</span>
+                    </li>
+                    <li class="list-group-item">
+                        <h3 class="h4">Total</h3>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="my-4 pt-1 text-muted text-center bg-secondary">
+        <p class="mb-1">2017-2022 Compagny Name</p>
+        <ul class="list-inline bg-primary d-inline-block">
+            <li class="list-inline-item">privé</li>
+            <li class="list-inline-item">Copyright</li>
+            <li class="list-inline-item">Support</li>
+        </ul>
+
+    </footer>
+
+
+    <script src="bootstrap.min.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
