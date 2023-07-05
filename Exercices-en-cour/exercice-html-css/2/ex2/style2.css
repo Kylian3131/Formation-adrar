@@ -1,0 +1,12 @@
+* {
+    background-color: beige;
+}
+
+titre {
+    text-align: center;
+}
+
+.naruto {
+    box-shadow: 20px 20px;
+    border-radius: 10px;
+}
