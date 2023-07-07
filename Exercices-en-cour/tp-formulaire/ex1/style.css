@@ -1,0 +1,11 @@
+.bleu{
+    color: blue;
+}
+
+.bleu:hover{
+    color: black;
+}
+
+li:hover{
+    color: blue;
+}

@@ -1,0 +1,16 @@
+caption {
+    color: rgb(115, 84, 143);
+}
+
+table {
+    border: rgb(140, 116, 162) double 3px; 
+}
+
+td, th {
+    border: black solid 2px;
+}
+
+th {
+    background-color: rgb(106, 169, 169);
+}
+
