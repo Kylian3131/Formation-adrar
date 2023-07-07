@@ -1,0 +1,176 @@
+body {
+    width: 738px;
+    margin: auto;
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(223, 232, 243);
+    color: rgb(31, 73, 125);
+}
+
+h1{
+    font-size: 45px;
+    margin: 2px;
+}
+
+.header p{
+    font-size: 18px;
+}
+
+.textephoto{
+    display: flex;
+}
+
+.description{
+    background-color: rgb(31, 73, 125);
+    color: white;
+    width: 492px;
+}
+
+h2{
+    color: rgb(31, 73, 125);
+    border-bottom: 2px solid;
+    border-color: rgba(219, 219, 219, 0.973);
+}
+
+.englobante{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.titreposte{
+    grid-column: 1;
+    grid-row: 4;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+.date{
+    margin: 0px 10px 50px 0px;
+    border-radius: 75px;
+    background-color: #1f497d;
+    border: 0.5px solid;
+    float: left;
+    height: 50px;
+    width: 50px;
+    font-size: small;
+    text-align: center;
+    min-width: 50px;
+    color: aliceblue;
+}
+
+.texte{
+    color: #1f497d;
+}
+
+.img{
+    margin: 10px;
+}
+
+.rechercher{
+    margin: 0px;
+}
+
+.experience-formation{
+    grid-column: 1 /span 7;
+}
+
+.un{
+    display: flex;
+}
+
+.paris{
+    margin: 0px;
+}
+
+.paris1{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.contact{
+    background-color: #1f497d;
+    height: 200px;
+    color: aliceblue;
+    padding: 10%;
+}
+
+.contacttext{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 2px solid;
+    border-color: rgba(219, 219, 219, 0.973);
+
+}
+
+.contact-competence-hobbies{
+    grid-column: 9 / span12;
+    margin: 0px;
+}
+
+.competences{
+    background-color: rgba(219, 219, 219, 0.973);
+    height: 300px;
+    color: #1f497d;
+    padding: 10%;
+}
+
+.competencestext{
+    color: #1f497d;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 2px solid;
+    border-color: #1f497d;
+}
+
+.hobbiestext{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: center;
+    margin: 0px;
+    border-bottom: 2px solid;
+    border-color: rgba(219, 219, 219, 0.973);
+}
+
+.Hobbies{
+    background-color: #1f497d;
+    height: 160px;
+    color: aliceblue;
+    padding: 10%;
+}
+
+.listeee{
+    color: aliceblue;
+    display: grid;
+}
+
+.textgras{
+    font-weight: bold;
+}
+
+.decrire{
+    padding: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
