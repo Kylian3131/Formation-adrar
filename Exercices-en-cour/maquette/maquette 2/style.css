@@ -1,0 +1,59 @@
+.attention {
+    text-align: center;
+    background-color: #fbf9f7;
+    color:  #7c925e;
+    padding: 20px;
+}
+
+h1{
+    color: #7c925e;
+}
+
+h2{
+    color: #7c925e;
+    text-align: left;
+}
+
+.gros {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px;
+    margin: 10px;
+}
+
+.accueil {
+    display: flex;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.emglobante{
+    display: flex;
+    justify-content: center;
+}
+
+.liste{
+    padding: 20px;
+}
+
+.photo{
+    padding: 20px;
+}
+
+.txt{
+    padding: 20px;
+}
+
+.button{
+    background-color: #7c925e;
+}
+
+.baspage{
+    display: block;
+}
+
+footer{
+    background-color: #fbf9f7;
+}
