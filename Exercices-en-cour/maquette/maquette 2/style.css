@@ -32,6 +32,7 @@ h2{
 .emglobante{
     display: flex;
     justify-content: center;
+    margin-bottom: 27em;
 }
 
 .liste{
@@ -56,4 +57,14 @@ h2{
 
 footer{
     background-color: #fbf9f7;
+}
+
+.formulaire{
+    display: flex;
+}
+
+
+@media screen and (max-width: 575px)    
+{
+    
 }
