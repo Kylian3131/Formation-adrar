@@ -1,0 +1,67 @@
+
+.attention {
+    text-align: center;
+    background-color: #fbf9f7;
+    color:  #7c925e;
+    padding: 20px;
+}
+
+h1{
+    color: #7c925e;
+}
+
+h2{
+    color: #7c925e;
+    text-align: left;
+}
+
+.gros {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 3px;
+    margin: 10px;
+}
+
+.accueil {
+    display: flex;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.milieu {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.imgtext {
+    position: relative;
+}
+
+.zindex {
+    position: absolute;
+    z-index: 3;
+    background: #fbf9f7;
+    width: 80%;
+    left: -10px;
+    top: 239px;
+}
+
+.fraise{
+    grid-column: 6;
+    padding-left: 20px;
+}
+
+footer{
+    background-color: #fbf9f7;
+}
+
+.baspage{
+    display: block;
+}
+
+
+.titretxtphoto{
+    padding-right: 70px;
+}
