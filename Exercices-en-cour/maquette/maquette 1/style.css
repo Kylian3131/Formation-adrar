@@ -33,6 +33,7 @@ h2{
 .milieu {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
+    padding: 10px 20% 0;
 }
 
 .imgtext {
@@ -55,6 +56,7 @@ h2{
 
 footer{
     background-color: #fbf9f7;
+    padding: 10px 20% 0;
 }
 
 .baspage{
@@ -64,4 +66,7 @@ footer{
 
 .titretxtphoto{
     padding-right: 70px;
+}
+header{
+    padding: 10px 20% 0;
 }
