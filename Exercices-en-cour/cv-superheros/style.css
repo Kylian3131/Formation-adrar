@@ -1,0 +1,132 @@
+/* -----------------------------HEADER------------------------------------------ */
+
+
+body {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: rgb(165, 153, 153);
+}
+
+header {
+    grid-column: span 12;
+    background-color: brown;
+}
+
+
+.head {
+    display: flex;
+}
+
+.droit {
+    display: flex;
+}
+
+.imgtext {
+    text-align: center;
+    height: 1%;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4%;
+}
+
+.text {
+    margin: -2%;
+    padding-top: 17%;
+}
+
+.maison {
+    padding-top: 5%;
+}
+
+strong {
+    color: #b8e48f;
+}
+
+.suplement {
+    margin-right: 5%;
+}
+
+.survol:hover {
+
+}
+
+/* -----------------------------HEADER------------------------------------------ */
+
+
+/* -------------------------------MAIN----------------------------------------------- */
+
+main {
+    display: flex;
+    border-right: dashed 4px;
+
+}
+
+.radius {
+    margin: 0px 10px 50px 0px;
+    border-radius: 75px;
+    background-color: brown;
+    border: 0.5px solid;
+    float: left;
+    height: 150px;
+    width: 150px;
+    font-size: 1.5em;
+    text-align: center;
+    min-width: 50px;
+    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.compétence {
+    margin-top: 10%;
+}
+
+.rond {
+    display: flex;
+    margin-top: 10%
+}
+
+.formation {
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+h3 {
+    margin: 0%;
+    color: #b8e48f;
+    margin-top: 30%;
+}
+
+h2 {
+    border-bottom: solid;
+}
+
+.exp {
+    width: 277%;
+}
+
+.article {
+    margin: 0%;
+}
+
+ul {
+    margin-top: 10%;
+}
+
+.imgimg {
+    margin-top: 5%;
+}
+
+
+
+
+
+
+/* -------------------------------MAIN----------------------------------------------- */
