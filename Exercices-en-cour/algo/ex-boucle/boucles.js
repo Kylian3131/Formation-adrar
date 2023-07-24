@@ -122,6 +122,8 @@ for(let i=0; i<10; i++){
 }
 }
 
+
+
 // Exercice 8 : écrire dans la console :
 // 100
 // 1
