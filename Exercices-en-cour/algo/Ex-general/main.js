@@ -34,7 +34,7 @@ console.log(f2(1, 100));
 // ------------------------------------------------------------------------
 
 
-let t = [0, 10, 5, 80, 6, 4, 47, 78, 00, 50];
+let t = [0, 10, 5, 80, 6, 4, 47, 78, 0, 50];
 console.log(t);
 
 
@@ -64,9 +64,9 @@ console.log(nameofDay(6));
 
 function bissextiles(year) {
     /*  if ((year % 400 == 0 )|| (year % 4 == 0 && year % 100 != 0)){
-          return true
-      }
-      return false*/
+        return true
+    }
+    return false*/
     return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
 }
 
