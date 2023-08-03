@@ -1,0 +1,12 @@
+#nestingTest {
+  background-color: rgb(109, 65, 242);
+  margin: 5%;
+}
+#nestingTest p {
+  color: brown;
+  background-color: chartreuse;
+  padding: 20%;
+}
+#nestingTest :hover {
+  background-color: antiquewhite;
+}/*# sourceMappingURL=new.css.map */

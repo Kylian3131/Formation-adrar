@@ -1,0 +1,23 @@
+$mainCouleur: rgb(109, 65, 242);
+$rembourrage: 20%;
+$marge: 5%;
+
+#nestingTest{
+    background-color: $mainCouleur;
+    margin: $marge;
+
+
+    p{
+        color: brown;
+        background-color: chartreuse;
+        padding: $rembourrage;
+    }
+
+    :hover{
+        background-color: antiquewhite;
+    }
+}
+
+
+
+
