@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="new.css">
+    <title>Intro Sass-scss</title>
+</head>
+
+<body>
+
+    <!-- ---------------------navbar-------------------------------------- -->
+
+    <nav class="navbar navbar-expand-lg bg-warning p-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg" alt="Logo" width="50" height="50">
+                MEGALITH
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#123"
+                aria-controls="123" aria-expanded="false" aria-label="Déployer le menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="123">
+                <div class="navbar-nav">
+                    <a class="nav-link" target="_blank" href="pagepanier2.html">Page panier</a>
+                    <a class="nav-link active" href="#" aria-current="page">Page actuelle</a>
+                    <a class="nav-link" target="_blank" href="pagepanier3.html">Page paiement</a>
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">Mon menu déroulant</a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item"><a href=""></a></li>
+                        <li class="dropdown-item"><a href=""></a></li>
+                        <li class="dropdown-item"><a href=""></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ---------------------navbar-------------------------------------- -->
+    <!-- ---------------------main-------------------------------------- -->
+
+    <div id="carouselExampleIndicators" class="carousel slide mx-5">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="pizza.jpg" class="d-block w-50 m-auto" alt="photo">
+            </div>
+            <div class="carousel-item">
+                <img src="pikachu.jpg" class="d-block w-50 m-auto" alt="photo">
+            </div>
+            <div class="carousel-item">
+                <img src="abeille.png" class="d-block w-50 m-auto" alt="photo">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- ---------------------main-------------------------------------- -->
+
+    <!-- ---------------------cards-------------------------------------- -->
+
+    <div class="container">
+        <div class="row">
+            <h1 class="mt-4 border border-primary">Porte Folio</h1>
+            <div class="row">
+                <span class="border-start bg-secondary"></span>
+            </div>
+            <br>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="https://m.media-amazon.com/images/I/81nFF-rXdRL._UF894,1000_QL80_.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Astroworld</h5>
+                            <p class="card-text fst-italic">Ceci est la cover de Astroworld.
+                                date de sortie: 2018.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://thefader-res.cloudinary.com/private_images/w_760,c_limit,f_auto,q_auto:best/1000x1000bb-1690518223_w2nwvg/travis-scott-i-utopia-i-album-artwork.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Utopia</h5>
+                            <p class="card-text fst-italic">Ceci est la cover de Astroworld.
+                                date de sortie: 2019.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://s3.amazonaws.com/media.thecrimson.com/photos/2015/09/08/222032_1308060.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Rodeo</h5>
+                            <p class="card-text fst-italic">Ceci est la cover de Rodeo. Date de sortie: 2018.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://media.pitchfork.com/photos/5e0f6f452ff48f0008f567cb/1:1/w_600/jackboys_travis.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Jack Boys</h5>
+                            <p class="card-text fst-italic">Ceci est la cover de Rodeo.
+                                date de sortie: 2019.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="https://i.pinimg.com/originals/cd/41/cd/cd41cdf1dd7e0af7f4da522353dcacc2.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Birds in the Trap Sing McKnight</h5>
+                            <p class="card-text fst-italic">Ceci est la cover de Wonderful.
+                                date de sortie: 2016.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+        <br><br>
+        <!-- ---------------------cards-------------------------------------- -->
+
+        <!-- ---------------------footer-------------------------------------- -->
+
+    <div class="container">
+        <div class="row">
+            <div class="card text-center">
+                <div class="card-header">
+                    About
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <span class="border-start bg-secondary"></span>
+            </div>
+            <div class="col-4"><img src="https://media.istockphoto.com/id/1068230970/fr/vectoriel/lunettes-lunettes-de-soleil.jpg?s=612x612&w=0&k=20&c=1MIc3k8_LLd1lQWsCRGCcEsmRXYSnwSq3sxapOzlblc=" alt="photo"></div>
+            <div class="col-4"><span class="border-start bg-secondary"></span></div>
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

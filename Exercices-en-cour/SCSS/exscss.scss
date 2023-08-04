@@ -1,0 +1,46 @@
+// ******************Correction du prof******************************
+//Exo2= style.scss
+$textSize:(2em);
+$padding:(10%);
+$border:(solid 2px black);
+
+@import"fichier.scss";
+//Exo3= J'importe mes variables depuis un ficher (ici nommé fichier) ensuite j'ai juste a nommé mes variables dans le css voulus
+
+#nestingTest{
+    background-color: royalblue;
+    font-size: $textSize;
+    border: $border;
+    p{
+        font-family: $police;
+        color: white;
+        padding-left: $padding;
+
+        
+    }
+    :hover{
+        background-color: rgb(255, 0, 204);
+        color: $colorText;
+        padding-right: $padding;
+    }
+}
+
+
+// *****************************************************On va parler de L'HERITAGE*************************************
+
+%classe-alerteBox{
+text-align: center;
+margin: 0 40%;
+border:(solid 2px blue); 
+
+}
+
+.alerte-rouge{
+    @extend %classe-alerteBox;
+    background-color: red;
+}
+
+.alerte-verte{
+    @extend %classe-alerteBox;
+    background-color: green;
+}
