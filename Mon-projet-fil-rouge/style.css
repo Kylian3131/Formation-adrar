@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.quiz-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+#choices li {
+    list-style: none;
+    margin: 10px 0;
+}
+
+#next-button {
+    display: none;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+
+#score {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
