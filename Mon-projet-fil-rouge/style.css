@@ -1,4 +1,47 @@
-body {
+p{
+    color: black;
+    text-align: center;
+    padding-top: 3%;
+}
+
+h1{
+    color: red;
+}
+
+h2{
+    color: yellowgreen;
+}
+
+.background{
+    background-color: beige;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
     font-family: Mapolice, sans-serif;
 }
 
@@ -27,4 +70,4 @@ h1 {
     font-weight: bold;
     margin-top: 20px;
 }
-
+ */
