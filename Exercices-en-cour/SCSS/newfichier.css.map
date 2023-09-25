@@ -1,1 +1,9 @@
-{"version":3,"sources":["newfichier.scss","newfichier.css"],"names":[],"mappings":"AAIA;EACI,kCALU;EAMV,WAJI;ACCR;ADMI;EACI,YAAA;EACA,4BAAA;EACA,YAXM;ACOd;ADOI;EACI,8BAAA;ACLR","file":"newfichier.css"}
+{
+    "version": 3,
+    "mappings": "AAIA,AAAA,YAAY,CAAA;EACR,gBAAgB,EALN,OAAgB;EAM1B,MAAM,EAJF,GAAG;CAgBV;;AAdD,AAKI,YALQ,CAKR,CAAC,CAAA;EACG,KAAK,EAAE,KAAK;EACZ,gBAAgB,EAAE,UAAU;EAC5B,OAAO,EAXD,GAAG;CAYZ;;AATL,AAWI,YAXQ,CAWR,MAAM,CAAA;EACF,gBAAgB,EAAE,YAAY;CACjC",
+    "sources": [
+        "newfichier.scss"
+    ],
+    "names": [],
+    "file": "newfichier.css"
+}

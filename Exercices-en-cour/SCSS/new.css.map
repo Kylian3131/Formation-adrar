@@ -1,1 +1,9 @@
-{"version":3,"sources":["new.scss","new.css"],"names":[],"mappings":"AAAA;EACI,kBAAA;EACA,cAAA;ACCJ","file":"new.css"}
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,EAAE;CACjB",
+    "sources": [
+        "new.scss"
+    ],
+    "names": [],
+    "file": "new.css"
+}
