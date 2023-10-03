@@ -26,11 +26,9 @@ let a = 20;
 let z = 0;
 
 
-
 console.log(a+i);
 console.log(i-a);
 console.log(i%a);
-
 
 
 let sacha = "pikachu";
@@ -99,19 +97,78 @@ let user = {
 console.log(user);
 
 
-
-
-
-
-
 let tab = [20,60,100];
-let array = [50,50,50];
+let array = [10,10,10];
+
+
+tab.forEach((unFilm) => {
+    console.log("Le fil du jour : " + unFilm);
+});
+
 
 function moyenne(notes){
     notes = notes[0]+notes[1]+notes[2]/3;
-   let result = notes;
+    let result = notes;
     console.log(result);
 }
 
-moyenne(tab);
 moyenne(array);
+
+function moyenne2(notes) {
+    let somme = 0;
+    for (let i=0; i<notes.length; i++){
+        somme = somme + notes[i];
+    }
+    moyenne = somme / notes.lenght;
+
+    if (moyenne >= 15){
+        return "Tres Bien !";
+    } else if (moyenne >= 10){
+        return "Assez bien !";
+    } else {
+        return "Refus !";
+    }
+}
+
+        // Exercice 12
+
+const lesTxt = document.getElementsByTagName("p");
+console.log(lesTxt);
+
+         // Exercice 13
+
+let textTab = Array.from(lesTxt);
+console.log(textTab);
+
+        // Exercice 14
+
+textTab.map(temp => temp.innerText = "Je t'ai hacké ! weshh");
+
+        // Exercice 15
+
+const tabEleves = [[10,16,5],[20,18,16],[5,8,9],[12,13,14],[15,16,13]];
+tabEleves.forEach((eleve) => {
+    eleve.forEach((note) => console.log(note));
+})
+
+const userData = {
+    name: 'John delavega',
+    email: 'john.doe@example.com',
+    age: 25,
+    dob: '08/02/1989',
+    active: true,
+    img:`https://www.boredpanda.com/blog/wp-content/uploads/2022/06/funny-low-costcosplay-
+    pics-62a744d39c80a__700.jpg`
+    };
+
+
+const userDiv = document.createElement ("div");
+
+
+userDiv.innerText = `
+
+
+
+
+`
+
