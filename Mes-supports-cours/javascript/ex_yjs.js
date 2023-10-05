@@ -44,7 +44,7 @@ let r = `Bonjour j'aime la quiche`;
 console.log(e);
 console.log(r);
 
-let nom = "Kylian";
+
 let age = 23;
 let passion = ["pierre", "mederic"];
 let tabUser = [nom, age, passion];
@@ -151,24 +151,33 @@ tabEleves.forEach((eleve) => {
     eleve.forEach((note) => console.log(note));
 })
 
-const userData = {
-    name: 'John delavega',
-    email: 'john.doe@example.com',
-    age: 25,
-    dob: '08/02/1989',
-    active: true,
-    img:`https://www.boredpanda.com/blog/wp-content/uploads/2022/06/funny-low-costcosplay-
-    pics-62a744d39c80a__700.jpg`
-    };
+
+const userDate = {
+    name : 'Jhon delavega',
+    email : 'jhon.doe@example.com',
+    age : 25,
+    dob : '08/02/1989',
+    active : true,
+    img : '"https://www.boredpanda.com/blog/wp-content/uploads/2022/06/funny-low-cost-cosplay-pics-62a744d39c80a__700.jpg"'
+};
 
 
-const userDiv = document.createElement ("div");
+let card = document.createElement("article");
+let avatar = document.createElement("img");
+let nom = document.createElement("h1");
+let email = document.createElement("p");
+let birth = document.createElement("p");
+let active = document.createElement("p");
 
 
-userDiv.innerText = `
+card.append(avatar, nom, email, birth, active);
+document.body.appendChild(card);
 
+avatar.src = userData.img;
+nom.innerText = userData.name;
+mail.innerText = userData.email;
+age.innerText = userData.age;
+birth.innerText = userData.dob;
+active.innerText = userData.active;
 
-
-
-`
-
+card.style.widht = "300px";

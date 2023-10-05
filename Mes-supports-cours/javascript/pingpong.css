@@ -1,0 +1,14 @@
+#raquette{
+height: 50px;
+width: 100px;
+background-color: rgb(103, 103, 218);
+border: 2px solid blueviolet;
+/* margin-left: 42%;
+margin-top: 5%; */
+position: absolute;
+}
+
+h1{
+    text-align: center;
+    color: rgb(192, 127, 47);
+}

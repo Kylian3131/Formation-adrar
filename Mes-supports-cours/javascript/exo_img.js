@@ -7,7 +7,7 @@ addEventListener("click", function (unEvent) {
 
     monImg.style.position = "absolute";
     monImg.style.left= unEvent.x - taille/2 + "px";
-    monImg.style.top = unEvent.y - taille/2 + "px";
+    monImg.style.top = unEvent.y - taille/4 + "px";
 
     // Utiliser unEvent a la place de event car event= deprecié//
     document.body.appendChild(monImg);

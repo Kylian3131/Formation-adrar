@@ -1,0 +1,21 @@
+.laClasse{
+width: 100%;
+}
+
+
+.myCard{
+width: 300px;
+background-image: linear-gradient(0.6turn,#e66465, #9198e5);
+padding: 15px;
+color: white;
+padding: 15px;
+margin: 0 auto;
+box-shadow: -15px 15px 15px grey;
+}
+
+.titre2{
+color: black;
+text-align: center;
+padding: 4%;
+color: rgb(17, 113, 168);
+}
