@@ -1,3 +1,10 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 p{
     color: black;
     text-align: center;
@@ -9,13 +16,22 @@ h1{
 }
 
 h2{
-    color: yellowgreen;
+    color: red;
 }
 
-.background{
-    background-color: beige;
+.btn{
+    color: black;
 }
 
+.navbar{
+    height: 80px;
+}
+
+.col-6{
+    padding-right: 4%;
+    text-align: justify;
+    text-align-last: center;
+}
 
 
 
