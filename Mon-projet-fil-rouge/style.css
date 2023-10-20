@@ -19,8 +19,12 @@ h2{
     color: red;
 }
 
+.card-title{
+    color: white;
+}
+
 .btn{
-    color: black;
+    color: white;
 }
 
 .navbar{
@@ -31,6 +35,14 @@ h2{
     padding-right: 4%;
     text-align: justify;
     text-align-last: center;
+}
+
+.nav-link{
+    color: white;
+}
+
+.card-text{
+    color: white;
 }
 
 
