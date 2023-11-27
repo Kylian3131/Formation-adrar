@@ -43,6 +43,12 @@ body {
 
 /* ---------------------css-page-accueil----------------------------------------- */
 
+main{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+
 main h1{
     text-align: center;
     margin-top: 3%;
@@ -96,7 +102,6 @@ main h2{
     background-color: #6b55d8;
 }
 
-/* ---------------------footer-------------------------------------------- */
 
 
 footer {
@@ -105,6 +110,10 @@ footer {
     padding: 4px;
     text-align: center;
 }
+
+/* ---------------------responsive-------------------------------------------- */
+
+
 
 @media screen and (max-width: 600px) {
     .accueil {
