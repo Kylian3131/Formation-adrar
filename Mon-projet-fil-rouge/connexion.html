@@ -1,90 +1,117 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connexion</title>
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+    <!-- Fichier CSS -->
     <link rel="stylesheet" href="style.css">
+    <title>Connexion - Master Quiz</title>
 </head>
 
 <body>
 
-    <!-- -------------------------NAV-BAR---------------------------- -->
+    <!-- --------------------------navbar-------------------------- -->
 
-    <nav class="navbar navbar-expand-lg bg-primary">
-        <div class="container-fluid">
-            <a class="navbar-brand p-3" href="#">
-                <img src="logo.png" alt="Logo" width="80" height="80">
-                Master-Quiz
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#123"
-                aria-controls="123" aria-expanded="false" aria-label="Déployer le menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="123">
-                <div class="navbar-nav">
-                    <a class="nav-link" href="accueil.html" aria-current="page">Accueil</a>
-                    <a class="nav-link" href="quiz.html">Quiz</a>
-                    <a class="nav-link" href="resulats.html">Résultats</a>
-                    <a class="nav-link" href="classements.html">Classement</a>
-                    <a class="nav-link" href="profil.html">Profil</a>
-                    <a class="nav-link active" href="connexion.html">Connexion</a>
-                    <a class="nav-link" href="contact.html">Contact</a>
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                        aria-expanded="false"></a>
-                    <ul class="dropdown-menu">
-                        <li class="dropdown-item"><a href=""></a></li>
-                        <li class="dropdown-item"><a href=""></a>
-                        <li>
-                        <li class="dropdown-item"><a href=""></a></li>
-                    </ul>
+
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"><img src="logo-master-quiz.jpg" alt="Logo" style="height: 100px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <section class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav text-center">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#accueil">Accueil <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#quiz">Quiz</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#resultat">Resultat</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#classement">Classement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#profil">Profil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#connexion">Connexion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#inscription">Inscription</a>
+                </li>
+            </ul>
+        </section>
+    </nav>
+
+    <!-- --------------------------main-------------------------- -->
+
+    <main class="container mt-5" id="content">
+        <section class="container mt-5">
+            <article class="row justify-content-center">
+                <header class="col-md-6 text-center mb-5">
+                    <h1>Bienvenue sur Master Quiz</h1>
+                    <p>Connectez-vous pour découvrir de nouveaux quiz passionnants !</p>
+                </header>
+            </article>
+            <section class="row justify-content-center">
+                <article class="col-md-5">
+                    <aside class="card">
+                        <section class="card-body">
+                            <form action="login.php" method="post">
+                                <article class="form-group">
+                                    <input type="email" class="form-control" name="email" placeholder="Adresse Email">
+                                </article>
+                                <article class="form-group">
+                                    <input type="password" class="form-control" name="password"
+                                        placeholder="Mot de Passe">
+                                </article>
+                                <button type="submit" class="btn btn-primary w-100">Connexion</button>
+                            </form>
+                            <hr>
+                            <p class="text-center">Pas encore membre ? <a href="signup.php">Inscrivez-vous
+                                    maintenant</a></p>
+                        </section>
+                    </aside>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <!-- ------------------------footer-------------------------- -->
+
+    <footer class="footer text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <img src="logo-master-quiz.jpg" alt="Logo" style="max-height: 100px;">
+                </div>
+                <div class="col">
+                    <h5>Master Quiz</h5>
+                    <p>Apprenez en jouant, où chaque quiz est une nouvelle aventure vers la connaissance.</p>
+                </div>
+                <div class="col social-icons">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                 </div>
             </div>
         </div>
-    </nav>
-    
-    <!-- -----------------------------NAV-BAR---------------------------- -->
+    </footer>
 
-
-    <!-- -----------------------------Main---------------------------- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script src="bootstrap.min.js" crossorigin="anonymous"></script>
-
+    <!-- Bootstrap JS, jQuery, et Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>
